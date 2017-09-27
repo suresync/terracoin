@@ -5,7 +5,6 @@ import os
 import sys
 import time
 import math
-import os
 import time
 from urllib2 import urlopen
 
@@ -86,7 +85,7 @@ def print_welcome():
 def update_system():
     print_info("Updating the system...")
     run_command("apt-get update")
-    run_command("apt-get upgrade -y")
+    run_command("apt-get -s dist-upgrade \| grep \"\^Inst\" \| grep -i securi \| awk -F \" \" {\'print $2\'} \| xargs apt-get install")
     run_command("apt-get dist-upgrade -y")
 
 def chech_root():
