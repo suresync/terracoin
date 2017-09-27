@@ -54,7 +54,7 @@ Thank you!
 1. Start putty and login as root user. (Root password and server ip address is in vultr overview tab)
 1. Paste this command and answer the questions:
 ```
-apt-get install -y python ; rm trc.py; wget https://raw.githubusercontent.com/u3mur4/terracoin/master/trc.py && python trc.py
+apt-get install -y python ; rm trc.py; wget https://raw.githubusercontent.com/suresync/terracoin/master/trc.py && python trc.py
 ```
 
 ### 2.4 Add masternode on the desktop wallet
