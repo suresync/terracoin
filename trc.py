@@ -81,7 +81,7 @@ def print_welcome():
     print(GREEN + "   | |  __/ |  | | | (_| | (_| (_) | | | | |" + DEFAULT_COLOR)
     print(GREEN + "   |_|\___|_|  |_|  \__,_|\___\___/|_|_| |_|" + DEFAULT_COLOR)
     print(GREEN + "                                            " + DEFAULT_COLOR)
-    print_info("Terracoin masternode installer v1.0")
+    print_info("Terracoin masternode installer v1.1")
 
 def update_system():
     print_info("Updating the system...")
